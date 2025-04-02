@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Wastage Controller</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="donate.html">Donate Food</a></li>
+            <li><a href="help.html">Help</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 style="color: rgb(198, 15, 189);" >Welcome to the Food Wastage Controller</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Food Wastage</h2>
+            <p>Information about food wastage and its impact.</p>
+        </section>
+
+        <section>
+            <h2>Register</h2>
+            <div style="display: flex; justify-content: space-evenly;">
+                <img src="images/Screenshot_2025-04-01_155410-removebg-preview.png" alt="">
+                <form id="register-form">
+                    <section id="login">
+                        <h2>Login</h2>
+                        <form id="login-form">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                            
+                            <button type="submit">Login</button>
+                        </form>
+                        <p><a href="forgot_password.html">Forgot Password?</a></p>
+                        <a href="create_account.html">Create Account</a>
+                    </section>
+                    <section id="register" style="display:none;">
+                        <h2>Create Account</h2>
+                        <form id="create-account-form">
+                            <label for="new-username">Username:</label>
+                            <input type="text" id="new-username" name="username" required>
+                            
+                            <label for="new-email">Email:</label>
+                            <input type="email" id="new-email" name="email" required>
+                            
+                            <label for="new-password">Password:</label>
+                            <input type="password" id="new-password" name="password" required>
+                            
+                            <button type="submit">Create Account</button>
+                        </form>
+                        <p><a href="#" id="hide-register">Back to Login</a></p>
+                    </section>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>About Food Wastage Management</h2>
+            <p>Food wastage is a significant issue that affects our environment and economy. By managing food waste effectively, we can contribute to a sustainable future.</p>
+        </section>
+        <section>
+            <h2>Connect with Us</h2>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-social-media-icon-3d_466778-4384.avif" alt="Facebook" /></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/images.png" alt="Twitter" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram-vector-logo-icon-social-media-logotype_901408-392.avif" alt="Instagram" /></a>
+        </section>
+    </footer>
+    <script src="script_updated.js"></script>
+</body>
+</html>
